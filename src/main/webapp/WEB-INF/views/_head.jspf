@@ -1,0 +1,5 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="UTF-8"><title>${title}</title>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css"></head>
+<body><div class="win"><div class="titlebar">ShopMan5 - ${title}</div><div class="content">

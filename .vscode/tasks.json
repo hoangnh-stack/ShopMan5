@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Chạy ShopMan5 (Jetty)", "type": "shell", "command": "mvn jetty:run", "problemMatcher": [], "group": "build" },
+    { "label": "Đóng gói WAR", "type": "shell", "command": "mvn clean package", "problemMatcher": [] }
+  ]
+}

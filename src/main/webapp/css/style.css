@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #e9eef5; font-family: "Segoe UI", Arial, sans-serif; color: #222; }
+.win { max-width: 880px; margin: 28px auto; background: #fff; border: 1px solid #b9c4d4; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.12); overflow: hidden; }
+.titlebar { background: #dae8fc; padding: 8px 14px; font-weight: 600; font-size: 13px; border-bottom: 1px solid #b9c4d4; }
+.content { padding: 22px 30px 28px; }
+.center { text-align: center; }
+h1 { font-size: 24px; margin: 4px 0 14px; text-align: center; }
+h2 { font-size: 16px; margin: 18px 0 8px; }
+.sub { color: #556; margin: 0 0 18px; }
+label { display: block; font-size: 13px; margin: 10px 0 3px; font-weight: 600; }
+input[type=text], input[type=password], select, textarea { width: 100%; padding: 8px 10px; border: 1px solid #aab4c3; border-radius: 4px; font-size: 14px; }
+.row { display: flex; gap: 14px; } .row > div { flex: 1; }
+.btn { display: inline-block; padding: 9px 20px; border: 1px solid #6c8ebf; background: #dae8fc; border-radius: 5px; cursor: pointer; font-size: 14px; color: #222; text-decoration: none; margin: 4px 4px 0 0; }
+.btn:hover { background: #c5d9f6; }
+.btn.big { display: block; max-width: 320px; margin: 10px auto; padding: 14px; font-size: 16px; }
+.btn.small { padding: 4px 12px; font-size: 13px; }
+.btn.primary { background: #6c8ebf; color: #fff; } .btn.danger { background: #f8cecc; border-color: #b85450; }
+.actions { margin-top: 18px; }
+table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 14px; }
+th, td { border: 1px solid #b9c4d4; padding: 6px 8px; text-align: left; }
+th { background: #eef3fb; } td.num, th.num { text-align: right; } td.c, th.c { text-align: center; }
+.err { background: #f8cecc; border: 1px solid #b85450; padding: 9px 12px; border-radius: 4px; margin: 10px 0; }
+.ok { background: #d5e8d4; border: 1px solid #82b366; padding: 9px 12px; border-radius: 4px; margin: 10px 0; }
+.info { background: #fff2cc; border: 1px solid #d6b656; padding: 8px 12px; border-radius: 4px; margin: 8px 0; font-size: 14px; }
+.total { text-align: right; font-weight: 700; font-size: 15px; margin: 8px 0; }
+.inline { display: inline; margin: 0; }
+@media print { .noprint { display: none !important; } body { background: #fff; } .win { box-shadow: none; border: none; } }
